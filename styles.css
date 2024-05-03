@@ -1,0 +1,74 @@
+.page-wrap {
+    width: 960px;
+    margin: 0 auto;
+    user-select: none;
+}
+
+:root {
+    background: rgb(192, 13, 13)
+}
+
+#container {
+    display: inline-grid;
+    margin-top: 5%;
+    border: 5px solid black;
+    margin-left: 13%;
+}
+
+.square1 {
+    background: white;
+}
+
+#buttons {
+    position: relative;
+    top: -140px;
+    padding-bottom: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: 20px;
+    margin-top: 1%;
+    font-size: 15px;
+}
+.tool-button-other {
+    border: solid black;
+    background: rgb(67, 67, 243);
+    color: rgb(255, 255, 255);
+    border-radius: 10%;
+    padding: 2%;
+}
+.tool-button-other:hover {
+    box-shadow: 0px 0px 5px 5px black;
+    background-color: rgb(32, 156, 218);
+    color: rgb(255, 255, 255);
+    border: solid 3px black;
+}
+.tool-button {
+    border: solid black;
+    background: rgb(67, 67, 243);
+    color: rgb(255, 255, 255);
+    border-radius: 10%;
+    padding: 2%;
+}
+.tool-button:hover {
+    box-shadow: 0px 0px 5px 5px black;
+    background-color: rgb(32, 156, 218);
+    color: rgb(255, 255, 255);
+    border: solid 3px black;
+}
+.tool-button-active {
+    background-color: rgb(7, 200, 72);
+}
+
+#sketch {
+    position: relative;
+    top: -350px;
+    margin-left: 95%;
+    width: 500px;
+}
+
+.knobs {
+    position: relative;
+    top: -150px;
+    display: flex;
+    justify-content: space-between;
+}
